@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AG";
+  src: url(../fonts/AvoidanceGenevra-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AG";
+  src: url(../fonts/AvoidanceGenevra-ThinItalic.otf);
+  font-weight: normal;
+}
+
+body {
+  overflow: hidden !important;
+  background: #000;
+  font-family: "AG";
+}
